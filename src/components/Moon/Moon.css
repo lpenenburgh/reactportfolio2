@@ -1,0 +1,10 @@
+#moon {
+    margin-top: 50px;
+    height: 180px;
+    display: block;
+    margin-bottom: 5px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px;
+}
