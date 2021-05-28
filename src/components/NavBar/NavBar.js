@@ -10,14 +10,14 @@ import "./NavBar.css"
 function Navibar() {
   return (
     <Navbar className="color-nav" bg="info" variant="dark" expand="lg">
-    <Navbar.Brand href="/">Lauren Penenburgh</Navbar.Brand>
+    <Navbar.Brand >Lauren Penenburgh</Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav
         className="mr-auto"
         
       >
-        <NavLink className="nav-link" to="/">
+        <NavLink className="nav-link" to="/about">
           About
         </NavLink>
         <NavLink className="nav-link" to="/contact">
