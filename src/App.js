@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter, Route, Switch } from "react-router-dom";
 import Contact from "./pages/Contact";
 import Portfolio from "./pages/Portfolio";
 //import NavBar from "./components/NavBar/NavBar";
@@ -10,7 +10,7 @@ import About from "./pages/About";
 
 function App() {
   return (
-    <Router>
+    <HashRouter>
       <div>
         <Wrapper>
           <Switch>
@@ -21,7 +21,7 @@ function App() {
           </Switch>
         </Wrapper>
       </div>
-    </Router>
+    </HashRouter>
 
   );
 }
